@@ -1,4 +1,4 @@
-# CS150 - Composition 2
+# Jazz Standard Generator
 
 **Authors:** Cullen McCaleb and Jeremy Lawrence
 
@@ -8,12 +8,12 @@
 
 | File | Description |
 |------|-------------|
-| `comp2.py` | Main file that creates the composition |
+| `generator.py` | Main file that creates the composition |
 | `markov_chain.py` | Provides functions to create a Markov chain-based melody part |
 | `genetic_algorithm.py` | Provides functions to create a genetic algorithm-based harmony part |
 | `monte_carlo.py` | Provides a function to generate note durations for a melody and harmony part |
-| `AutumnLeaves.mid` | MIDI file used by `markov_chain.py` |
-| `Take5.mid` | MIDI file used by `markov_chain.py` |
+| `results` | Sotres MIDI files adn XML files used by `generator.py` |
+| `standards` | Stores MIDI files used by `markov_chain.py` which act as inspiration for the algorithm |
 
 ---
 
@@ -23,8 +23,8 @@
 python3 comp2.py [ -s | -m ] [ --train | --use ]
 ```
 
-- `-s` or `-m` is required
-- `--train` or `--use` are optional
+- `-s` or `-m` is required: `-s` creates an xml file for the score, and `-m` creates a midi file
+- `--train` or `--use` are optional: the default is training mode
 
 ---
 
