@@ -20,7 +20,7 @@
 ## Usage
 
 ```bash
-python3 comp2.py [ -s | -m ] [ --train | --use ]
+python3 generator.py [ -s | -m ] [ --train | --use ]
 ```
 
 - `-s` or `-m` is required: `-s` creates an xml file for the score, and `-m` creates a midi file
